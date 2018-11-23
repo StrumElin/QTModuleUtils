@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AB0DDA021A8043F00AF7752 /* QTLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0DD9F21A8043F00AF7752 /* QTLoadingHUD.m */; };
+		6AB0DDA321A8058100AF7752 /* QTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0DDA221A8058100AF7752 /* QTToast.m */; };
 		6AB39CF021A644320065B953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB39CEF21A644320065B953 /* AppDelegate.m */; };
 		6AB39CF321A644320065B953 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB39CF221A644320065B953 /* ViewController.m */; };
 		6AB39CF621A644320065B953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB39CF421A644320065B953 /* Main.storyboard */; };
@@ -25,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		2B5F23AB03AD1EE8C2852993 /* Pods-QTModuleUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QTModuleUtils.release.xcconfig"; path = "Pods/Target Support Files/Pods-QTModuleUtils/Pods-QTModuleUtils.release.xcconfig"; sourceTree = "<group>"; };
+		6AB0DD9E21A8043F00AF7752 /* QTLoadingHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTLoadingHUD.h; sourceTree = "<group>"; };
+		6AB0DD9F21A8043F00AF7752 /* QTLoadingHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTLoadingHUD.m; sourceTree = "<group>"; };
+		6AB0DDA121A8058100AF7752 /* QTToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTToast.h; sourceTree = "<group>"; };
+		6AB0DDA221A8058100AF7752 /* QTToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTToast.m; sourceTree = "<group>"; };
 		6AB39CEB21A644320065B953 /* QTModuleUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTModuleUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB39CEE21A644320065B953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6AB39CEF21A644320065B953 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +78,17 @@
 				2B5F23AB03AD1EE8C2852993 /* Pods-QTModuleUtils.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6AB0DD9D21A8041B00AF7752 /* QTToast */ = {
+			isa = PBXGroup;
+			children = (
+				6AB0DD9E21A8043F00AF7752 /* QTLoadingHUD.h */,
+				6AB0DD9F21A8043F00AF7752 /* QTLoadingHUD.m */,
+				6AB0DDA121A8058100AF7752 /* QTToast.h */,
+				6AB0DDA221A8058100AF7752 /* QTToast.m */,
+			);
+			path = QTToast;
 			sourceTree = "<group>";
 		};
 		6AB39CE221A644320065B953 = {
@@ -128,6 +145,7 @@
 		6AB39D2721A6445E0065B953 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6AB0DD9D21A8041B00AF7752 /* QTToast */,
 				6AB39D2821A6445E0065B953 /* FileHash */,
 				6AB39D2B21A6445E0065B953 /* GDataXML */,
 				6AB39D2E21A6445E0065B953 /* SandBox */,
@@ -301,10 +319,12 @@
 				6AB39D3521A6445E0065B953 /* FileHash.m in Sources */,
 				6AB39D3321A6445E0065B953 /* UIColor+Hex.m in Sources */,
 				6AB39D3121A6445E0065B953 /* UIButton+interval.m in Sources */,
+				6AB0DDA321A8058100AF7752 /* QTToast.m in Sources */,
 				6AB39CF321A644320065B953 /* ViewController.m in Sources */,
 				6AB39D3621A6445E0065B953 /* GDataXMLNode.m in Sources */,
 				6AB39D3421A6445E0065B953 /* UIViewController+alert.m in Sources */,
 				6AB39D3721A6445E0065B953 /* SandboxFile.m in Sources */,
+				6AB0DDA021A8043F00AF7752 /* QTLoadingHUD.m in Sources */,
 				6AB39CFE21A644340065B953 /* main.m in Sources */,
 				6AB39CF021A644320065B953 /* AppDelegate.m in Sources */,
 			);
